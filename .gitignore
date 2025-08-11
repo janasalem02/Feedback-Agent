@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.pot
+*.mo
+*.db
+*.sqlite3
+*.env
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry
+poetry.lock
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Audio files
+*.aac
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Misc
+*.swp
+*.bak
+*.tmp
+
+# Ignore content audio files
+content/*/*.aac

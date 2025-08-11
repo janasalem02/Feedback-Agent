@@ -1,0 +1,38 @@
+[project]
+name = "sond"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jenna",email = "120240901294@st.ahu.edu.jo"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)",
+    "pymongo (>=4.14.0,<5.0.0)",
+    "rapidfuzz (>=3.13.0,<4.0.0)",
+    "aiohttp (>=3.12.15,<4.0.0)",
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "torchaudio>=2.0.0",
+    "faster-whisper>=0.10.0",
+    "ctranslate2>=3.0.0",
+    "tokenizers>=0.13.0",
+    "onnxruntime>=1.15.0",
+    "librosa>=0.10.0",
+    "soundfile>=0.12.0",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "primary"
+
